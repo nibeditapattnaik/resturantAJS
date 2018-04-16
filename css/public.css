@@ -1,0 +1,87 @@
+.container .jumbotron{
+    box-shadow: 0 0 50px #3F0C1F;
+    border: 2px solid #3F0C1F;
+}
+#menu-tile, #specials-tile, #map-tile{
+    height: 250px;
+    width:100%;
+    margin-bottom: 15px;
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+    box-shadow:0 1px 5px 1px #cccccc;
+}
+#menu-tile{
+    background: url('../images/menu-tile.jpg') no repeat;
+    background-position: center;
+}
+#menu-tile span, #specials-tile span, #map-tile span{
+    position: absolute;
+    bottom:0;
+    right: 0;
+    width:100%;
+    text-align: center;
+    font-size:1.6em;
+    text-transform: uppercase;
+    background-color:#000;
+    color:#fff;
+    opacity: 0.8;
+}
+/* End of HOME PAGE */
+
+/* MENU CATEI+GORY  PAGE */
+.category-tile{
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden; 
+    width:200px;
+    height: 200px;
+    margin:0 auto 15px;
+}
+.ctaegory-tile span{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    width:100%;
+    text-align:center;
+    font-size:1.2em;
+    text-transform: uppercase;
+    background-color:#000;
+    color:#fff;
+}
+.category-tile:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#menu-categories-title +div{
+    margin-bottom:50px;
+}
+/* END MENU CATEGORIES PAGE */
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile{
+    margin-bottom:25px;
+}
+.menu-item-tile hr{
+    width:80%;
+}
+.menu-item-tile .menu-item-price{
+    font-size:1.1em;
+    text-align: right;
+    margin-top: -15px;
+    margin-right: -15px;
+}
+.menu-item-tile .menu-item-price span{
+    font-size: 0.6em;
+} 
+.menu-item-photo{
+    position:relative;
+    border:2px solid #3F0C1F;
+    overflow:hidden;
+    padding:0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width:250px;
+}
